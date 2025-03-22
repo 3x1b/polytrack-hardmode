@@ -23553,7 +23553,8 @@
                 WP.set(this, []), HP.set(this, void 0), VP.set(this, void 0), qP(this, HP, n, "f"), qP(this, VP, t, "f"), 
                 Promise.all([XP(this, zP, "m", GP)
                     .call(this, "tracks/track-1.track", e), XP(this, zP, "m", GP)
-                    .call(this, "tracks/track-2.track", e)])
+                    .call(this, "tracks/track-2.track", e), XP(this, zP, "m", GP)
+                    .call(this, "tracks/track-3.track", e)])
                 .then((e => {
                     qP(this, FP, e, "f")
                 }))
