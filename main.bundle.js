@@ -23554,7 +23554,8 @@
                 Promise.all([XP(this, zP, "m", GP)
                     .call(this, "tracks/track-1.track", e), XP(this, zP, "m", GP)
                     .call(this, "tracks/track-2.track", e), XP(this, zP, "m", GP)
-                    .call(this, "tracks/track-3.track", e)])
+                    .call(this, "tracks/track-3.track", e), XP(this, zP, "m", GP)
+                    .call(this, "tracks/track-4.track", e)])
                 .then((e => {
                     qP(this, FP, e, "f")
                 }))
